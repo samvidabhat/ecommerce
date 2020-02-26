@@ -1,0 +1,182 @@
+
+
+.container{
+  display: grid;
+  margin-top:30px;
+  width: 100%;
+}
+
+.header{
+  grid-area: auto;
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 100%;
+}
+.inputText{
+  height: 23px;
+  padding:10px;
+  width: 500px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid lightgray;
+  float: left;
+  border-right: none;
+}
+.searchBox{
+  display: flex;
+  float: left;
+}
+.imageDimension{
+  height: 60px;
+  float: left;
+  margin-right: 40px;
+}
+.categories{
+  float: left;
+  margin-right: 40px;
+  font-size: 22px;
+}
+.sidebarList{
+  margin-top:10%;
+  margin-left: 5%;
+}
+.sortList{
+  width: 70%;
+  padding: 2%;
+  margin-top:5%;
+}
+.selectList{
+  float: left;
+  border-left: 0;
+  padding-left: 5px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 15px;
+  border:1px solid lightgray;
+  border-right: none;
+  font-size: 20px;
+  border-radius: 0 0 0 0;
+  background-color: white;
+}
+.sortByDiv{
+  margin-top: 5%;
+}
+.searchImgDiv{
+  float: left;
+  height: 42px;
+  width: 50px;
+  border:1px solid lightgray;
+  border-radius: 0 20px 20px 0;
+  background-color: crimson;
+  margin-right: 40px;
+}
+
+.searchImg{
+  padding: 10px;
+  font-size:24px;
+}
+
+.loginpage{
+  border:1px solid lightgray;
+  margin-top: 5%;
+  padding: 8%;
+  width: 15%;
+  margin-left: 35%;
+  font-size: 24px;
+}
+.login{
+  margin-right : 40px;
+  float:left;
+  font-size:24px;
+}
+input{
+  height: 23px;
+  padding:10px;
+  width: 75%;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid lightgray;
+  float: left;
+}
+.featureList{
+  margin-top:5%;
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  background-color: steelblue;
+}
+.fontSize{
+  font-size: 32px;
+  position: relative;
+}
+.productsListSlider{
+  margin-top:23%;
+  position: absolute;
+  width: 100%;
+}
+
+li{
+  float: left;
+  padding: 10px;
+  border:1px solid black;
+  margin: 10px;
+}
+.imageSize{
+  height: 300px;
+  width: 300px;
+}
+.linkPosition{
+  float: right;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Segoe UI';
+}
+ul{
+  float: left;
+}
+.allProdDiv{
+  display: flex;
+}
+.sidebarDiv{
+  flex: 1;
+  width: 15%;
+  float: left;
+  border:1px solid lightgray;
+  height: 100%;
+}
+.productsDiv{
+  width: 85%;
+  float: right;
+}
+
+#parent {
+  display: flex;
+}
+#narrow {
+  width: 85%;
+  background: white;
+}
+#wide {
+  flex: 1;
+  width: 15%;
+  background: white;
+}
+
+.submitLogin{
+ border:none;
+ text-align: center; 
+  padding: 4%;
+  color:white;
+  margin-top:10%;
+  width:40%;
+  margin-left:20%;
+  font-size: 24px;
+  background-color: crimson;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.pwd{
+  margin-top: 20%;
+}
+.requiredred{
+  color:red;
+}
